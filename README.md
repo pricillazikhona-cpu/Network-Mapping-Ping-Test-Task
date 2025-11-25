@@ -33,10 +33,7 @@ This repository documents the process of **network mapping** and **ping testing*
 ## 🛠️ Tools & Technologies
 - **Mapping**: Nmap, Wireshark, Cisco Packet Tracer, SolarWinds.  
 - **Ping Tests**: Native `ping`, `tracert`/`traceroute`, PingPlotter.  
-- **Documentation**: Markdown, diagrams, structured reports.  
-
----
-
+- **Documentation**: Markdown, diagrams, structured reports.
 ## 🚀 Usage
 ### Run Ping Test
 ```bash
@@ -44,4 +41,19 @@ ping <IP_ADDRESS>
 tracert <IP_ADDRESS>   # Windows
 traceroute <IP_ADDRESS> # Linux/MacOS
 nmap -sP <NETWORK_RANGE>
+Deliverables
+Topology Diagram (PNG/SVG).
+
+Ping Test Report (Markdown/CSV).
+
+Recommendations for performance improvements.
+
+✅ Outcome
+Clear visibility of the network structure.
+
+Verified connectivity between critical devices.
+
+Early detection of performance issues.
+
+Reliable documentation for audits and scaling.
 
